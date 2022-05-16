@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>css-float </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .container{height: 70vh;}
+        .box{
+            padding:25px;
+            text-align: center;
+            color: white;     
+        }
+
+        #box1{
+            background-color: #5865F2;
+        }
+
+        #box2{
+            background-color: #FEE75C;
+            float: left;
+            height: 100%;
+        }
+
+        #box3{
+            background-color: #57F287;
+            height: 100%;
+        }
+
+        #box4{
+            background-color: #EB459E
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">header</div>   
+        <div class="box" id="box2">sidebar</div>   
+        <div class="box" id="box3">content</div>   
+        <div class="box" id="box4">footer</div> 
+    </div>        
+</body>
+</html>

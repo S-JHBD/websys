@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>css-box-models</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .standard {
+            border: 5px solid #404EED;
+            background-color: #5865F2;
+            padding: 40px;
+            margin: 40px;
+            width: 350px;
+            height: 150px;
+        }
+
+        .alternate {
+            box-sizing: border-box;
+            width: 440px;
+            height: 235px;
+            padding: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="standard">I am using the standard box model.</div>
+    <div class="standard alternate">I am using the alternate box model.</div>
+</body>
+</html>
